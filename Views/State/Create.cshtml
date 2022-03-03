@@ -1,0 +1,28 @@
+@model WebApplication2.Entities.State
+<div>
+    <form asp-action="Create">
+        <div>
+            <label>Name</label>
+            <input type="text" name="Name" required/>
+        </div>
+        <div>
+            <label>Governor</label>
+            <input type="text" name ="Governor" required/>
+        </div>
+        <div>
+            <label>State IGR</label>
+            <input type="number" name = "StateIGR" required/>
+        </div>
+        <div>
+            <label>Population</label>
+            <input type="number" name = "Population"/>
+        </div>
+        <div>
+            <label>Region</label>
+            <select asp-for="RegionId" asp-items="ViewBag.Regions"></select>
+        </div>
+        <div>
+            <input type="submit" value="submit" class="btn badge-info"/>
+        </div>
+    </form>
+</div>

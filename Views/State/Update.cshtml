@@ -1,0 +1,25 @@
+@model WebApplication2.Entities.State
+<div>
+    <form asp-action="Update">
+        <div>
+            <label>Name</label>
+            <input type="text" name="Name" value="@Model.Name" required>
+        </div>
+        <div>
+            <label>Governor Name</label>
+            <input type="text" name="Governor" value="@Model.Governor" required>
+        </div>
+        <div>
+            <label>Population</label>
+            <input type="number"  name ="Population" value="@Model.Population" required>
+        </div>
+        <div>
+            <label>IGR</label>
+            <input type="number"  name ="StateIGR" value="@Model.StateIGR" required>
+            </div>
+        <div>
+            <input type="submit"  value="Add" class="btn btn-primary" required>
+        </div>
+        
+    </form>
+</div>

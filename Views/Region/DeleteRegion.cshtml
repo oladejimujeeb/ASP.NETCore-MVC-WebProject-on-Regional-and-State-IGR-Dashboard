@@ -1,0 +1,23 @@
+@model WebApplication2.Entities.Region
+<div>
+    <dl>
+        <dd>
+            Id
+        </dd>
+        <dt>
+            @Model.Id
+        </dt>
+        <dd>
+            Name
+        </dd>
+        <dt>
+            @Model.Name
+        </dt>
+    </dl>
+    <span>Are you sure you want to <b>delete</b>  this state</span>
+    <form asp-action="DeleteRegion">
+        <input type="hidden" asp-for="Id"/>
+        <input type="submit" value="Delete" class="btn btn-danger">
+    </form>
+    <a asp-action="Index">Go back to list of student</a>
+</div>

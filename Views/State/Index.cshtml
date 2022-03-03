@@ -1,0 +1,36 @@
+@model IEnumerable<WebApplication2.Entities.State>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Governor</th>
+            <th>State IGR</th>
+            <th>Details</th>
+            <th>Edit State</th>
+            <th>Delete</th>
+            <th>Get Region</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var sta in Model)
+        {
+            <tr>
+                <th>@sta.Id</th>
+                <th>@sta.Name</th>
+                <th>@sta.Governor</th>
+                <th>@sta.StateIGR</th>
+                <th> <a asp-action="GetDetails" asp-route-id="@sta.Id" class="btn  btn-info">View</a> </th>
+                <th><a asp-action="Update" asp-route-id="@sta.Id" class="btn btn-secondary">Update</a></th>
+                <th><a asp-action="DeleteState" asp-route-id="@sta.Id" class="btn btn-danger ">Delete</a></th>
+                <th> <a asp-action="GetRegionByState" asp-route-Id="@sta.RegionId" class="btn btn-primary " >Get Region</a> </th>
+            </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
+<div>
+    <a asp-controller="State" asp-action="Create" class="btn btn-dark">Add State</a>
+</div>

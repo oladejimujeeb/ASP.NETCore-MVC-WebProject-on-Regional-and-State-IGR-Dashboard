@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.AssemblyInfo.cs
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.dll
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\ref\WebApplication2.dll
+C:\Users\User\Desktop\code learners hub\WebApplication2\WebApplication2\obj\Debug\net5.0\WebApplication2.pdb

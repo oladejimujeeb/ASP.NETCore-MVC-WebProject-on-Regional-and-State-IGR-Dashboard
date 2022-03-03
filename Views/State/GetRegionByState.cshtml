@@ -1,0 +1,29 @@
+@model IEnumerable<WebApplication2.Entities.State>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Governor</th>
+            <th>State IGR</th>
+            <th>Population</th>
+            <th>Region</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var sta in Model)
+        {
+            <tr>
+                <th>@sta.Id</th>
+                <th>@sta.Name</th>
+                <th>@sta.Governor</th>
+                <th>@sta.StateIGR</th>
+                <th>@sta.Population</th>
+                <th>@sta.Region.Name</th>
+            </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
